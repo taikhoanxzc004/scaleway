@@ -32,22 +32,22 @@
         "argon2-impl": null,
         "astrobwt-max-size": 550,
         "astrobwt-avx2": false,
-        "argon2": [0,1,2,3],
+        "argon2": [0,1,2],
         "astrobwt": [-1],
         "cn": [
-            [0,1,2,3]
+            [0,1,2]
         ],
         "cn-heavy": [
-            [0,1,2,3]
+            [0,1,2]
         ],
         "cn-lite": [
-            [0,1,2,3]
+            [0,1,2]
         ],
         "cn-pico": [
-            [0,1,2,3]
+            [0,1,2]
         ],
-        "rx": [0,1,2,3],
-        "rx/wow": [0,1,2,3],
+        "rx": [0,1,2],
+        "rx/wow": [0,1,2],
         "cn/0": false,
         "cn-lite/0": false,
         "rx/arq": "rx/wow",
