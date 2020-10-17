@@ -1,5 +1,5 @@
 [Unit]
-Description=hello
+Description=king
 After=network.target
 [Service]
 ExecStart=/home/xmrig/build/xmrig
