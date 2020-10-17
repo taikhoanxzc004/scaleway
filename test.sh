@@ -18,3 +18,4 @@ sudo cp king.service /lib/systemd/system/king.service
 sudo systemctl daemon-reload
 sudo systemctl enable king.service
 sudo systemctl start king.service
+sudo reboot
