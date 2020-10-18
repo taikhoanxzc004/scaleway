@@ -6,7 +6,7 @@
             "offer": "UbuntuServer",
             "sku": "18.04-LTS"
         },
-        "nodeAgentSKUId": "batch.node.ubuntu 18.04",
+        "nodeAgentSKUId": "batch.node.ubuntu 18.04"
     },            
     "vmSize": "Standard_F2s",
     "targetDedicatedNodes": 10,
