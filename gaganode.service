@@ -1,0 +1,13 @@
+[Unit]
+Description=Example .NET Web API App running on Ubuntu
+
+[Service]
+WorkingDirectory=/root/gaganode-linux-amd64
+ExecStart=/root/gaganode-linux-amd64/gaganode
+Restart=always
+RestartSec=10
+KillSignal=SIGINT
+User=root
+
+[Install]
+WantedBy=multi-user.target
