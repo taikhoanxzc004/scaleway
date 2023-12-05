@@ -1,0 +1,13 @@
+[Unit]
+Description=Example .NET Web API App running on Ubuntu
+
+[Service]
+WorkingDirectory=/root/meson_cdn-linux-amd64
+ExecStart=/root/meson_cdn-linux-amd64/meson_cdn
+Restart=always
+RestartSec=10
+KillSignal=SIGINT
+User=root
+
+[Install]
+WantedBy=multi-user.target
